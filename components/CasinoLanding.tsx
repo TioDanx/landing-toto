@@ -1,15 +1,16 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-
 import Card from "./Card";
 import Image from "next/image";
 import Testimonial from "./Testimonial";
+
 export default function CasinoLanding() {
   const ctaRef = useRef<HTMLDivElement>(null);
   const [players, setPlayers] = useState(10000);
   const [showStickyCTA, setShowStickyCTA] = useState(false);
   const [typedText, setTypedText] = useState("");
   const fullText = "¡ Bienvenido a Ganamos365!";
+  const waLink = "https://wa.link/tkst67";
 
   const randomizePlayers = () => {
     setTimeout(() => {
@@ -75,7 +76,7 @@ export default function CasinoLanding() {
 
         <div ref={ctaRef} className="flex justify-center mb-12 animate-bounce">
           <a
-            href="https://wa.link/j7en5b"
+            href={waLink}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-green-500 via-emerald-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold text-lg px-10 py-3 rounded-full shadow-xl hover:scale-105 transition-all duration-300"
@@ -165,7 +166,7 @@ export default function CasinoLanding() {
         {showStickyCTA && (
           <div className="fixed bottom-4 inset-x-0 flex justify-center z-50 animate-pulse">
             <a
-              href="https://wa.link/j7en5b"
+              href={waLink}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white font-semibold text-base px-6 py-3 rounded-full shadow-lg hover:bg-green-700 transition-all duration-300"
