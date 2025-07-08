@@ -170,6 +170,14 @@ export default function CasinoLanding() {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white font-semibold text-base px-6 py-3 rounded-full shadow-lg hover:bg-green-700 transition-all duration-300"
+              onClick={() => {
+                if (
+                  typeof window !== "undefined" &&
+                  typeof (window as any).fbq === "function"
+                ) {
+                  (window as any).fbq("track", "Lead");
+                }
+              }}
             >
               🎁 ¡Obtené tu bono YA!
             </a>
