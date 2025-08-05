@@ -96,8 +96,8 @@ export default function CasinoLanding() {
         <div className="grid grid-cols-2 sm:grid-cols-3 max-w-4xl gap-3 sm:gap-5 mx-auto mb-6">
           <Card
             icon="💰"
-            title="20% en el primer deposito"
-            description="Obtené un bono del 20% en tu primer depósito."
+            title="200% en el primer deposito"
+            description="Obtené un bono del 200% en tu primer depósito."
           />
           <Card
             icon="🎯"
