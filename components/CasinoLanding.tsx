@@ -89,7 +89,7 @@ export default function CasinoLanding() {
               }
             }}
           >
-            🎁 Obtener mi bono YA!
+            🍀Contactar con una cajera🍀
           </a>
         </div>
 
@@ -179,7 +179,7 @@ export default function CasinoLanding() {
                 }
               }}
             >
-              🎁 ¡Obtené tu bono YA!
+              🍀Contactar con una cajera🍀
             </a>
           </div>
         )}
