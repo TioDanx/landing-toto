@@ -74,7 +74,7 @@ export default function CasinoLanding() {
           promociones exclusivas.
         </p>
 
-        <div ref={ctaRef} className="flex justify-center mb-12 animate-bounce">
+        <div ref={ctaRef} className="flex justify-center mb-12">
           <a
             href={waLink}
             target="_blank"
@@ -164,7 +164,7 @@ export default function CasinoLanding() {
           </h2>
         </div>
         {showStickyCTA && (
-          <div className="fixed bottom-4 inset-x-0 flex justify-center z-50 animate-pulse">
+          <div className="fixed bottom-4 inset-x-0 flex justify-center z-50">
             <a
               href={waLink}
               target="_blank"
