@@ -10,7 +10,7 @@ export default function CasinoLanding() {
   const [showStickyCTA, setShowStickyCTA] = useState(false);
   const [typedText, setTypedText] = useState("");
   const fullText = "¡ Bienvenido a Ganamos365!";
-  const waLink = "https://wa.link/tkst67";
+  const waLink = "https://wa.link/ovha6m";
 
   const randomizePlayers = () => {
     setTimeout(() => {
